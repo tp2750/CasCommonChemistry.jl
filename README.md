@@ -15,7 +15,7 @@ This package is currently not registered, so it needs to be installed from this 
 
 ```
 using Pkg
-pkg"add https://github.com/tpapp/MarkdownTables.jl"
+pkg"add https://github.com/tp2750/CasCommonChemistry.jl"
 ```
 
 # Usage
