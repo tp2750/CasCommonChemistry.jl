@@ -1,7 +1,9 @@
 # CasCommonChemistry.jl
 
+<!---
 [![Stable](https://img.shields.io/badge/docs-stable-blue.svg)](https://tp2750.github.io/CasCommonChemistry.jl/stable/)
 [![Dev](https://img.shields.io/badge/docs-dev-blue.svg)](https://tp2750.github.io/CasCommonChemistry.jl/dev/)
+-->
 [![Build Status](https://github.com/tp2750/CasCommonChemistry.jl/actions/workflows/CI.yml/badge.svg?branch=main)](https://github.com/tp2750/CasCommonChemistry.jl/actions/workflows/CI.yml?query=branch%3Amain)
 [![Coverage](https://codecov.io/gh/tp2750/CasCommonChemistry.jl/branch/main/graph/badge.svg)](https://codecov.io/gh/tp2750/CasCommonChemistry.jl)
 
@@ -73,7 +75,9 @@ julia> cas_search("water*")
 # Dict{String, Any} with 2 entries:
 #   "count"   => 94
 #   "results" => Any[Dict{String, Any}("rn"=>"118175-19-2", "name"=>"Calcium, [ethanedioato(2-)-κ<em>O</em><sup>1</sup>,κ<em>O</em><sup>2…
-
-
-
 ```
+
+# API
+
+This package uses the Cas Common Chemistry API, which is described here: https://commonchemistry.cas.org/api-overview
+
