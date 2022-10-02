@@ -5,7 +5,11 @@
 [![Build Status](https://github.com/tp2750/CasCommonChemistry.jl/actions/workflows/CI.yml/badge.svg?branch=main)](https://github.com/tp2750/CasCommonChemistry.jl/actions/workflows/CI.yml?query=branch%3Amain)
 [![Coverage](https://codecov.io/gh/tp2750/CasCommonChemistry.jl/branch/main/graph/badge.svg)](https://codecov.io/gh/tp2750/CasCommonChemistry.jl)
 
-This package provides an interface the the [CAS Common Chemistry](https://commonchemistry.cas.org/) registry of chemical compounds.
+This package provides an interface to the [CAS Common Chemistry](https://commonchemistry.cas.org/) registry of chemical compounds.
+
+The database is maintained by the American Chemical Society. Quoting the description from the [home page](https://commonchemistry.cas.org/)
+
+>  CAS Common Chemistry is an open community resource for accessing chemical information. Nearly 500,000 chemical substances from [CAS REGISTRY®](https://www.cas.org/cas-data/cas-registry) cover areas of community interest, including common and frequently regulated chemicals, and those relevant to high school and undergraduate chemistry classes. This chemical information, curated by our expert scientists, is provided in alignment with our mission as a division of the American Chemical Society.
 
 # Installation
 
@@ -75,7 +79,7 @@ julia> cas_search("water*")
 #   "results" => Any[Dict{String, Any}("rn"=>"118175-19-2", "name"=>"Calcium, [ethanedioato(2-)-κ<em>O</em><sup>1</sup>,κ<em>O</em><sup>2…
 ```
 
-# API
+## Internet access needed
 
-This package uses the Cas Common Chemistry API, which is described here: https://commonchemistry.cas.org/api-overview
+This package uses the Cas Common Chemistry web API, which is described here: https://commonchemistry.cas.org/api-overview. As a concequence, it only works with access to the internet.
 
