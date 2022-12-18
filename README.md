@@ -17,7 +17,7 @@ This package is currently not registered, so it needs to be installed from this 
 
 ```
 using Pkg
-pkg"add https://github.com/tp2750/CasCommonChemistry.jl"
+pkg"add CasCommonChemistry"
 ```
 
 # Usage
